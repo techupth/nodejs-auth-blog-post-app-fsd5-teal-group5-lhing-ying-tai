@@ -8,6 +8,7 @@ import dotenv from "dotenv";
 
 async function init() {
   dotenv.config();
+
   const app = express();
   const port = 4000;
 
